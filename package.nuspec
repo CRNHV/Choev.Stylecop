@@ -1,17 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
-  <metadata>
-    <id>Choev.Stylecop</id>
-    <version>0.1</version>
-    <authors>Corné Hoeving</authors>
-    <description>This package contains a stylecop ruleset for my personal projects.</description>
-    <developmentDependency>true</developmentDependency>
-    <dependencies>      
-      <dependency id="StyleCop.Analyzers.Unstable" version="1.2.0.435" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="build/StyleCop.targets" target="build" />
-    <file src="rulesets/StyleCopAnalyzersDefault.ruleset" target="rulesets" />
-  </files>
+	<metadata>
+		<id>Choev.Stylecop</id>
+		<version>0.1</version>
+		<authors>Corné Hoeving</authors>
+		<description>This package contains a stylecop ruleset for my personal projects.</description>
+		<developmentDependency>true</developmentDependency>
+		<dependencies>
+			<dependency id="StyleCop.Analyzers.Unstable" version="1.2.0.435" />
+		</dependencies>
+		<projectUrl>https://github.com/choeving/Choev.Stylecop</projectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</metadata>
+	<files>
+		<file src="build/StyleCop.targets" target="build" />
+		<file src="rulesets/StyleCopAnalyzersDefault.ruleset" target="rulesets" />
+	</files>
+
+
 </package>
