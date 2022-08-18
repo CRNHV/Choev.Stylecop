@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
 		<id>Choev.Stylecop</id>
-		<version>0.1</version>
+		<version>0.1.2</version>
 		<authors>Corné Hoeving</authors>
 		<description>This package contains a stylecop ruleset for my personal projects.</description>
 		<developmentDependency>true</developmentDependency>
